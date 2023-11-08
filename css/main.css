@@ -227,6 +227,7 @@
   width: 100%;
   height: 100%;
   list-style: none;
+  margin-left: -37px;
 }
 .footer__bottom-top .footer__pages-list .footer__pages-pagination {
   text-decoration: none;
@@ -250,6 +251,7 @@
   width: 100%;
   height: 100%;
   list-style: none;
+  margin-left: -37px;
 }
 .footer__bottom-top .footer__contact-list .footer__contact-pagination {
   text-decoration: none;
@@ -267,6 +269,7 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  gap: 0 413px;
 }
 .footer__bottom-btm .footer__bottom-line {
   width: 100%;
@@ -525,7 +528,7 @@
 }
 .main__guide-right .guide__right-img {
   position: absolute;
-  top: -44px;
+  top: -30px;
   right: 10px;
 }
 .main__guide-right .guide__right-text {
