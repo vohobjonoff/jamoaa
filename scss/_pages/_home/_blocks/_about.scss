@@ -1,0 +1,429 @@
+.main{
+    .section{
+        .container{
+            max-width:1700px;
+            width: 100%;
+            margin: 0 auto;
+            background:#FFF; 
+            .world__largest{
+                padding: 96px 80px;
+                .world__largest-span{
+                  align-self: stretch;  
+                  color:#667085;
+                  text-align: center;
+                  font-family: 'Inter';
+                  font-size: 16px;
+                  font-style: normal;
+                  font-weight: 500;
+                  line-height: 24px;
+                  margin-left:600px;
+                  
+                }
+                .world__largest__companies{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    .world__largest__companies-img1{
+                     margin-top: 32px;
+                    }
+                }
+            }
+        }           
+    }
+    .section{
+        .container{
+            max-width:1700px;
+            margin: 0 auto;
+            width: 100%;
+             
+            .customer__opinion{
+                background:#FAF8F6;
+                
+                .customer__opinion-h2{
+                  width: 730px;
+                  color: #333461;
+                  font-family:'Kumbh Sans';
+                  font-size: 48px;
+                  font-style: normal;
+                  font-weight: 800;
+                  line-height: 56px;
+                  letter-spacing: -0.48px;
+                  padding-top: 120px;
+                  padding-bottom: 37px;
+                  padding-left: 200px;
+                  
+                }
+                .about__customer__opinion{
+                    display: flex;
+                    gap: 60px;
+                    padding-left: 200px;
+                    .about__customer__opinion__block{
+                        display:block;
+                        background:#FFF;
+                        box-shadow: 0px 96px 96px 0px rgba(177, 186, 200, 0.12);
+                        flex-direction: column;
+                        margin-bottom: 200px;
+                        transition: all 0.5s ease;
+                        &__womens{
+                         padding: 48px 48px;
+                         
+                            &-green{
+                             color: #20AD96;
+                             font-family:'Kumbh Sans';
+                             font-size: 30px;
+                             font-style: normal;
+                             font-weight: 800;
+                             line-height: 40px;
+                             letter-spacing: -0.9px;
+                            }
+                            &-p{
+                             width: 304px;
+                             color: #4A556C;
+                             font-family:'Kumbh Sans';
+                             font-size: 24px;
+                             font-style: normal;
+                             font-weight: 400;
+                             line-height: 32px;
+                             letter-spacing: -0.72px;
+                            }
+                            &-black{
+                             width: 304px;
+                             color: #333461;
+                             font-family:'Kumbh Sans';
+                             font-size: 24px;
+                             font-style: normal;
+                             font-weight: 700;
+                             line-height: 32px;
+                             letter-spacing: -0.72px;
+                            }
+                            &-gray{
+                             color:#DBDEE6;
+                            font-family:'Kumbh Sans';
+                             font-size: 30px;
+                             font-style: normal;
+                             font-weight: 800;
+                             line-height: 40px;
+                             letter-spacing: -0.9px;   
+                            }
+                         
+                        }
+                    }
+                    .about__customer__opinion__block:hover{
+                     transform:scale(1.2);
+                    }
+                }
+            }
+        }
+    }
+    .section{
+        .container{
+            max-width:1700px;
+            width: 100%;
+            margin: 0 auto;
+            background:#FFF; 
+            .change{
+                padding-bottom:96px;
+                .change__title{
+                 padding-top:162px;
+                 margin-left: 80px;
+                    &__block{
+                        &-span{
+                        display: block;
+                        align-items: center;
+                        justify-content: center;
+                        align-self:stretch;
+                        color: rgba(74, 85, 108, 0.50);
+                        text-align: center;
+                        font-family: 'Kumbh Sans';
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 24px;
+                        }
+                        .span2{
+                         max-width: 1200px;
+                         font-size: 20px;
+                         padding-left:450px;
+                        }
+                        &-h3{
+                        align-self:stretch;
+                        color: #333461;
+                        text-align: center;
+                        font-family: 'Kumbh Sans';
+                        font-size: 36px;
+                        font-style: normal;
+                        font-weight: 800;
+                        line-height: 44px;
+                        letter-spacing: -0.72px;
+                        }
+                    }
+                }
+                .change__life{
+                    display: flex;
+                    gap:32px;
+                    margin-top: 64px;
+                    &__info{
+                       display: block;
+                       align-items: center;
+                       justify-content: center;
+                       text-align: center;
+                       flex-direction: column;
+                       padding-left:149px;
+                      
+                       
+                        &-span{
+                         color: #333461;
+                         text-align: center;
+                         font-family: 'Kumbh Sans';
+                         font-size: 20px;
+                         font-style: normal;
+                         font-weight: 700;
+                         line-height: 24px;
+                        }
+                        &-p{
+                           
+                         color: #667085;
+                         text-align: center;
+                         font-family: 'Kumbh Sans';
+                         font-size: 16px;
+                         font-style: normal;
+                         font-weight: 400;
+                         line-height: 24px;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+    .article{
+        .container{
+            max-width:1700px;
+            width: 100%;
+            margin: 0 auto;
+     
+          .about__informatsion{
+            .about__informatsion__blog{
+                &-h4{
+                    color: #333461;
+                    text-align: center;
+                    font-family: 'Kumbh Sans';
+                    font-size: 48px;
+                    font-style: normal;
+                    font-weight: 800;
+                    line-height: 44px;
+                    letter-spacing: -0.96px;
+                    padding-left: 200px;
+                }
+                &-span{
+                    color: #4A556C;
+                    font-family: 'Kumbh Sans';
+                    text-align: center;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 30px;
+                    padding-left:700px;
+                }
+            }
+            .question{
+                width: 670px;
+                padding-top: 65px;
+                margin-left: 550px;
+                .span-img{
+                    display:flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    column-gap: 290px;
+                    cursor: pointer;
+                    transition: 0.5s ;
+                    &-text{
+                        color: #101828;
+                        font-family: 'Kumbh Sans';
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 28px;
+                    }
+                    &-p{
+                        color: #4A556C;
+                        font-family: 'Kumbh Sans';
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 24px;
+                        padding-bottom: 32px;
+                    }
+                   
+                    .text-2{
+                        padding:24px 0;
+                    }
+                    .img2{
+                        margin-left: 80px;
+                    }
+                    .text-3{
+                        padding-top: 24px;
+                        padding-bottom: 64px;
+                    }
+                    .img3{
+                        margin-left: 150px;
+                        margin-top: -40px;
+                    }
+                }
+                .line-bottom{
+                    height: 1px;
+                    background: var(--gray-200, #E4E7EC);  
+                  }
+                .question__img:active{
+                    transform: scale(0.5);
+                }
+            }
+          }  
+        }
+    }
+    .article{
+
+        .container{
+            max-width:1700px;
+            width: 100%;
+            margin: 0 auto;
+        
+            .conversation{
+                border-radius: 16px;
+                background: #FAF8F6;
+                .friendly__conversation{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    padding: 32px 32px;
+                    &-span{
+                        color: #333461;
+                        text-align: center;
+                        font-family:'Kumbh Sans';
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 800;
+                        line-height: 30px;
+                        padding-bottom: 8px;
+                    }
+                    input{
+                        width: 768px;
+                        color: #4A556C;
+                        text-align: center;
+                        font-family: 'Kumbh Sans';
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 28px;
+                        border:none;
+                        background: #FAF8F6;
+                        margin-bottom: 32px;
+                    }
+                    button{
+                     width: 250px;
+                     color: #FFF;
+                     font-family:'Kumbh Sans';
+                     font-size: 14px;
+                     font-style: normal;
+                     font-weight: 600;
+                     line-height: 130%;
+                     padding: 10px 18px;
+                     border-radius:8px;
+                     background: #20AD96;
+                     border: 1px solid #20AD96;
+                     cursor: pointer;
+                     transition:0.5s ease;
+                     margin-bottom: 32px;
+                    }
+                }
+                button:hover{
+                 background-color:#0df9d2;
+                }
+                button:active{
+                 transform: scale(0.6);
+                }  
+            }
+        }
+    }
+    .article{
+        .container{
+            max-width:1700px;
+            width: 100%;
+            margin: 0 auto;
+        
+            .news{
+                background: #FAF8F6;
+                margin-top: 132px;
+                padding-top: 48px;
+                padding-left: 80px;
+                .about__news{
+                    display: flex;
+                    align-items: center;
+                    gap: 500px;
+                    .about__news__info{
+                        padding-left: 80px;
+                        span{
+                            color: #333461;
+                            font-family:'Kumbh Sans';
+                            font-size: 30px;
+                            font-style: normal;
+                            font-weight: 800;
+                            line-height: 38px;
+                        }
+                        p{
+                            color: #4A556C;
+                            font-family: 'Kumbh Sans';
+                            font-size: 20px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 30px;
+                            padding-top: 16px;
+                            padding-bottom:48px;
+                        }
+                    }
+                    input{
+                     padding: 14px 10px;
+                     border-radius: 8px;
+                     border: 1px solid #D0D5DD;
+                     background: #FFF;
+                     box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+                     color: rgba(74, 85, 108, 0.50);
+                     font-family: 'Kumbh Sans';
+                     font-size: 16px;
+                     font-style: normal;
+                     font-weight: 400;
+                     line-height: 24px; 
+                     padding-right: 100px;
+                     margin-left: -250px;
+                     
+                    }
+                    button{
+                     width: 150px;
+                        color: #FFF;
+                        font-family:'Inter';
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight:500;
+                        line-height:24px;
+                        padding: 14px 18px;
+                        border-radius:8px;
+                        background: #20AD96;
+                        border: 1px solid #20AD96;
+                        box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+                        cursor: pointer;
+                        transition:0.5s ease;
+                        margin-bottom: 32px;
+                        
+                    }
+                }
+                button:hover{
+                 background-color:#0df9d2;
+                }
+                button:active{
+                 transform: scale(0.6);
+                } 
+            }
+        }
+    }
+}

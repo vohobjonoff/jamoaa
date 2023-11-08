@@ -1,0 +1,121 @@
+.footer{
+    .container{
+        .footer__header{
+            .footer__header__blog{
+                display: flex;
+                padding-top: 64px;
+                gap: 64px;
+                .design{
+                 display:flex;
+                 flex-direction: column;
+                 span{
+                    color: rgba(74, 85, 108, 0.50);
+                    font-family: 'Kumbh Sans';
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                    width:300px;
+                    padding-top: 32px;
+                 }
+                 img{
+                    width: 149px;
+                    height: 27.31px;
+                    flex-shrink: 0;
+                 }
+                }
+                .footer_menu{
+                    menu{
+                        color: #333461;
+                        font-family: 'Kumbh Sans';
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 800;
+                        line-height: 20px;
+                        margin-bottom: 64px;
+                       
+                    } 
+                    li{
+                       
+                        font-family: 'Kumbh Sans';
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 24px;
+                        list-style: none;
+                     
+                        padding-top: 16px;
+                        padding-right: 200px;
+                     
+                    }
+                    a{
+                     text-decoration: none;
+                     color: rgba(74, 85, 108, 0.50);
+                     
+                    }
+                }
+                .call{
+                    span{
+                  
+                    color: #333461;
+                    font-family: 'Kumbh Sans';
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 800;
+                    line-height: 20px;
+                    }
+                    p {
+                        padding-top: 16px;
+                        color: rgba(74, 85, 108, 0.50);
+                        font-family: 'Kumbh Sans';
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 24px;
+                        line-height:48px;
+                    }
+                }
+            }
+            .footer-line{
+                height: 1px;
+                background: #E4E7EC;
+            }
+        }  
+        .footer_end{
+            
+            .footer_end_block{
+                display: flex;
+                align-items: center;
+                padding-top:32px;
+                padding-bottom: 48px;
+               
+                span{
+                    color: #041434;
+                    font-family: 'Eudoxus Sans';
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 120%;
+                }
+                a{
+                    text-decoration: none;
+                }
+                p{
+                    color: #041434;
+                    font-family:'Inter';
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 120%;
+                   
+                }
+                .footer_end_block_images{
+                 display: flex;
+                 align-items: center;
+                 gap:25px;
+                 padding-left:930px;
+                }
+            }
+        } 
+    }
+}
