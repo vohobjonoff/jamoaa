@@ -1,0 +1,51 @@
+.main__cta{
+  width: 1300px;
+  height: 550px;
+  border: var(--border);
+  display: flex;
+  justify-content: center;
+  font-family: "Kumbh Sans", sans-serif;
+  margin: 0 auto;
+  &-cont{
+      width: 87%;
+      height: 82%;
+      border: var(--border);
+      background-color: #FAF8F6;
+      display: flex;
+      align-items: center;
+      .cta__text-box{
+          width: 52%;
+          height: 70%;
+          border: var(--border);
+          padding-top: 60px;
+          .main__cta-title{
+              font-size: 39px;
+              color: #041434;
+              font-weight: 900;
+              margin-bottom: 15px;
+          }
+          .main__cta-subtitle{
+              color: #4A556C80;
+              font-size: 22px;
+          }
+          .main__cta-btn{
+              width: 260px;
+              height: 50px;
+              border-radius: 10px;
+              border: 1px solid;
+              color: white;
+              background-color: #20AD96;
+              font-family: 'Kumbh Sans', sans-serif;
+          }
+          .main__cta-btn:hover{
+              color: #20AD96;
+              background-color: white;
+          }
+      }
+      .main__cta-img{
+          border-radius: 0 0 40px 0;
+          width: 50%;
+          margin-top: 10px;
+      }
+  }
+}

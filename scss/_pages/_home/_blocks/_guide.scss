@@ -1,0 +1,63 @@
+.main__guide{
+    width: 1300px;
+    height: 780px;
+    border: var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Kumbh Sans", sans-serif;
+    margin: 0 auto;
+    &-left{
+        width: 42%;
+        height: 60%;
+        border: var(--border);
+        .main__guide-title{
+            font-size: 40px;
+            font-weight: 900;
+            color: #041434;
+        }
+        .main__guide-text{
+            color: #4A556C;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .guide__text-span{
+            color: #4A556C;
+            font-size: 20px;
+        }
+        .main__guide-btn{
+            width: 250px;
+            height: 50px;
+            border-radius: 10px;
+            background-color: #20AD96;
+            color: white;
+            border: 1px solid;
+            font-family: 'Kumbh Sans', sans-serif;
+        }
+        .main__guide-btn:hover{
+            color: #20AD96;
+            background-color: white;
+        }
+    }
+    &-right{
+        width: 40%;
+        height: 75%;
+        border: var(--border);
+        display: flex;
+        justify-content: center;
+        position: relative;
+        .guide__right-img{
+            position: absolute;
+            top: -30px;
+            right: 10px;
+        }
+        .guide__right-text{
+            z-index: 2;
+            position: absolute;
+            color: white;
+            right: 16px;
+            top: -6px;
+            font-weight: 700;
+        }
+    }
+}
